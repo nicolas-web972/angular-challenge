@@ -1,0 +1,22 @@
+
+<div class="flex-container">
+  <div class="flex-container">
+    <img class="profil" [src]="user.picture" [alt]="user.picture">
+  </div>
+  <div class="font-1">
+    {{ user.lastname }}
+  </div>
+  <div class="font-2">
+    {{ user.firstname }}
+  </div>
+  <div class="font-3" *ngIf="displayingAge" >
+    {{ user.age }} ans
+  </div>
+  <div>
+    <button class="button" (click)="hiddingAge()"> Afficher / Masquer l'âge </button>
+  </div>
+  <div class="font-3">
+    {{ user.quote }}
+  </div>
+
+</div>

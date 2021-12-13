@@ -1,0 +1,30 @@
+
+.profil {
+  width: 40%;
+}
+
+.flex-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.font-1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.font-2 {
+  font-size: 30px;
+  color: rgb(75, 75, 75);
+}
+
+.font-3 {
+  font-size: 20px;
+  color: rgb(104, 104, 104);
+}
+
+.button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ValidationButtonComponent } from './validation-button/validation-button.component';
 import { BlockComponentComponent } from './block-component/block-component.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ValidationButtonComponent,
-    BlockComponentComponent
+    BlockComponentComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -20,3 +22,4 @@ import { BlockComponentComponent } from './block-component/block-component.compo
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
