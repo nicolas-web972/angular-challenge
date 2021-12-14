@@ -21,7 +21,7 @@ export class UserProfileComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  displayingAge = true;
+  displayingAge : boolean = true;
 
   hiddingAge() {
     this.displayingAge = !this.displayingAge;
