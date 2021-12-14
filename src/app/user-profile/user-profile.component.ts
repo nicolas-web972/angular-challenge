@@ -12,7 +12,7 @@ export class UserProfileComponent implements OnInit {
     lastname: 'Doe',
     firstname: 'John',
     age: 25,
-    quote:'',
+    quote:'two beer or not to beer',
     picture: 'https://randomuser.me/api/portraits/lego/2.jpg'
   };
 
